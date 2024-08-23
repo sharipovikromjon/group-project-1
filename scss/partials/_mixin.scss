@@ -1,0 +1,15 @@
+@mixin button($background-color) {
+  display: inline-block;
+  background-color: $background-color;
+  padding: 8px 26px;
+  color: #fffcfc;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+@mixin five {
+  color: #424242;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26.25px;
+}
