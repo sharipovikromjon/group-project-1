@@ -6,6 +6,9 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+  &:hover {
+    opacity: 0.6;
+  }
 }
 @mixin five {
   color: #424242;
