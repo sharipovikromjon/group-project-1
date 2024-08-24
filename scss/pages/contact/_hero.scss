@@ -1,0 +1,117 @@
+.hero {
+
+    &_block {
+        padding-top: 64px;
+        text-align: center;
+    }
+
+    &_sub_title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 33px;
+        color: rgba(228, 117, 0, 1);
+    }
+
+    &_title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 180%;
+        margin-bottom: 33px;
+    }
+
+    &_text {
+        font-size: 12px;
+        line-height: 187%;
+        font-weight: medium;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 87px;
+    }
+
+    &_img {
+        margin-bottom: 79px;
+    }
+
+    &_contact_block {
+        text-align: start;
+    }
+
+    &_contact {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin-bottom: 37px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(216, 216, 216, 1);
+    }
+
+
+    &_location {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin-bottom: 41px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(216, 216, 216, 1);
+    }
+
+    &_social_title {
+        font-size: 16px;
+        margin-bottom: 18px;
+        font-family: 500;
+        margin-left: 20px;
+    }
+
+    &_location_text{
+        color: black;
+    }
+    &_social_block {
+        display: flex;
+    }
+
+    &_contact_block{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .hero_title {
+        font-size: 33px;
+    }
+
+    .hero_text {
+        font-size: 16px;
+    }
+
+    .hero_contact_block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero_contact{
+        border-bottom: none;
+        padding-bottom: 0px;
+        padding-right: 59px;
+        border-right: 1px solid  rgba(216, 216, 216, 1);
+    }
+
+    .hero_location{
+        border-bottom: none;
+        padding-bottom: 0px;
+        padding-right: 59px;
+        border-right: 1px solid  rgba(216, 216, 216, 1);
+    }
+
+    .hero_social_media{
+        padding-bottom: 50px;
+    }
+
+    .hero_contact_block{
+        padding-bottom: 76px;
+    }
+}
