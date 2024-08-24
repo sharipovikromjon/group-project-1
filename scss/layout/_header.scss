@@ -15,6 +15,11 @@
 
     &_link {
         color: white;
+        transition: all .02s ease;
+    }
+
+    &_link:hover {
+        color: black;
     }
 
     &_list {
@@ -29,6 +34,12 @@
         color: rgba(223, 124, 20, 1);
         border-radius: 6px;
         display: none;
+        transition: all 0.2s ease;
+    }
+
+    &_btn:hover {
+        background-color: black;
+        color: white;
     }
 }
 
