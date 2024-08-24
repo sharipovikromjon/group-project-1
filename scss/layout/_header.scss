@@ -1,0 +1,49 @@
+.header {
+    background-color: rgba(223, 124, 20, 1);
+
+    &_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 23px;
+    }
+
+    &_right {
+        display: flex;
+        gap: 68.52px;
+    }
+
+    &_link {
+        color: white;
+    }
+
+    &_list {
+        color: white;
+        gap: 70px;
+        display: none;
+    }
+
+    &_btn {
+        padding: 11px 28px;
+        background-color: white;
+        color: rgba(223, 124, 20, 1);
+        border-radius: 6px;
+        display: none;
+    }
+}
+
+@media screen and (min-width:850px) {
+    .header_list {
+        align-items: center;
+        display: flex;
+    }
+
+
+    .header_btn2 {
+        display: none
+    }
+
+    .header_btn {
+        display: flex;
+    }
+}
