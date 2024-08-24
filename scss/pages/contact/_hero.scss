@@ -9,7 +9,11 @@
         font-size: 16px;
         font-weight: 400;
         margin-bottom: 33px;
+    }
+
+    &_sub_title_span {
         color: rgba(228, 117, 0, 1);
+
     }
 
     &_title {
@@ -47,6 +51,7 @@
     }
 
 
+
     &_location {
         display: flex;
         gap: 25px;
@@ -63,14 +68,15 @@
         margin-left: 20px;
     }
 
-    &_location_text{
+    &_location_text {
         color: black;
     }
+
     &_social_block {
         display: flex;
     }
 
-    &_contact_block{
+    &_contact_block {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -93,25 +99,25 @@
         align-items: center;
     }
 
-    .hero_contact{
+    .hero_contact {
         border-bottom: none;
         padding-bottom: 0px;
         padding-right: 59px;
-        border-right: 1px solid  rgba(216, 216, 216, 1);
+        border-right: 1px solid rgba(216, 216, 216, 1);
     }
 
-    .hero_location{
+    .hero_location {
         border-bottom: none;
         padding-bottom: 0px;
         padding-right: 59px;
-        border-right: 1px solid  rgba(216, 216, 216, 1);
+        border-right: 1px solid rgba(216, 216, 216, 1);
     }
 
-    .hero_social_media{
+    .hero_social_media {
         padding-bottom: 50px;
     }
 
-    .hero_contact_block{
+    .hero_contact_block {
         padding-bottom: 76px;
     }
 }
