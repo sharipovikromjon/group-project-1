@@ -1,0 +1,65 @@
+.commet{
+    background-color: white;
+
+    &_block{
+        padding-top: 150px;
+        margin-bottom: 218px;
+    }
+
+    &_title{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 32px;
+    }
+
+    &_text{
+        font-size: 16px;
+        line-height: 187%;
+        font-weight: 400;
+        width: 545px;
+        margin-bottom: 74px;
+    }
+
+    &_contact_block{
+        position: relative;
+        padding: 41px 51px;
+        width: 1170px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(27, 27, 27, 1);
+        gap: 42px;
+        border-radius: 15px;
+    }
+    &_contact_left_title{
+
+        font-size: 30px;
+        color: white;
+        font-weight: medium;
+        margin-bottom: 10px;
+    }
+
+    &_contact_left_text{
+        font-size: 17px;
+        font-weight: 400;
+        width: 636px;
+        color: white;
+    }
+
+    &_input{
+        width: 385px;
+        height: 48px;
+        border-radius: 8px;
+        padding-left: 20px;
+    }
+
+    &_input_btn{
+        padding: 8px 18px;
+        background-color: rgba(220, 112, 0, 1);
+        color: white;
+        position: absolute;
+        right: 6%;
+        margin-top: 4px;
+        border-radius: 8px;
+    }
+
+}
